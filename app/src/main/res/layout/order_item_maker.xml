@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textCoffeItem"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="hello"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textSugarItem"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="hello"
+                android:textSize="10dp"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textFreeTextItem"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:text="hello"
+                android:textSize="10dp"
+                android:textColor="#000000"
+                android:paddingLeft="10dp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+           android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="DELETE"
+                />
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Edit"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
